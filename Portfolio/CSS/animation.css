@@ -1,0 +1,63 @@
+.hi{
+    transition: all 1s ease-in-out;
+    position: relative;
+    right: 100%;
+}
+
+.last{
+    transition: all 0.75s ease-in-out 2s;
+    position: relative;
+    right: 100%;
+}
+
+.im{
+    opacity: 0;
+    transition: opacity 1s;
+    transition-delay: 1.5s;
+}
+
+.see-my-work{
+    opacity: 0;
+    transition: opacity 1.5s ease-in 3s;
+}
+
+.deon{
+    opacity: 0;
+    transition: opacity 1s;
+    transition-delay: 2s;
+}
+
+.slide-in.slide{
+    opacity: 1;
+}
+
+.hi.slide, .last.slide{
+    transform: translateX(100%);
+}
+
+.about-me, .PT{
+    opacity: 0;
+    transition: opacity 1s;
+    transition-delay: 1s;
+}
+
+.about-me-text{
+    opacity: 0;
+    transition: opacity 1.25s;
+    transition-delay: 1.75s;
+}
+
+.first-shape{
+    position: absolute;
+    z-index: 2;
+}
+
+.projects{
+    transition: transform 0.5s;
+}
+.projects:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
